@@ -6,7 +6,7 @@ const TrafficLight = () => {
     console.log("este es mi color:", color)
     
      return (
-         <div>
+         <div className="traffic-light-container">
              <div className="palito"></div>
              <div className = "trafic-light">
                  <div onClick={() => setColor("red")} className={"light red" + (color === "red" ? " glow" : "" )}></div>
